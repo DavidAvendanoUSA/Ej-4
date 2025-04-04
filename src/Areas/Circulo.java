@@ -8,15 +8,15 @@ public class Circulo extends Figura {
 
     }
     @Override
-    public void calcularArea() {
-        setArea(Math.PI * (radio * radio) );
+    public double  calcularArea() {
+        return  (Math.PI * (radio * radio) );
     }
     @Override
-    public void calcularPerimetro() {
-        setPerimetro(2 * Math.PI * radio);
+    public double  calcularPerimetro() {
+        return (2 * Math.PI * radio);
     }
     @Override
     public String toString() {
-        return "El circulo con radio " + radio + super.toString();  
+        return "El circulo con radio " + radio + " perimetro: " + calcularPerimetro() + " area: " + calcularArea(); 
     }
 }

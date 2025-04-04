@@ -5,23 +5,23 @@ class Rectangulo extends Figura {
     private double altura;
 
     public Rectangulo(double base, double altura) {
-        super(); // Llama al constructor de Figura
+        super(); 
         this.base = base;
         this.altura = altura;
     }
 
     @Override
-    public void calcularArea() {
-        setArea(base * altura);
+    public double  calcularArea() {
+        return (base * altura);
     }
 
     @Override
-    public void calcularPerimetro() {
-        setPerimetro(2 * (base + altura));
+    public double  calcularPerimetro() {
+        return (2 * (base + altura));
     }
 
     @Override
     public String toString() {
-        return "Rectángulo - Base: " + base + ", Altura: " + altura + ", " + super.toString();
+        return "Rectángulo - Base: " + base + ", Altura: " + altura + ", " + calcularPerimetro() + " area: " + calcularArea();
     }
 }
