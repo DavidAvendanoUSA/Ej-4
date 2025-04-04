@@ -33,14 +33,10 @@ public class Circulo extends Figura {
     public double  calcularPerimetro() {
         return (2 * Math.PI * radio);
     }
-    /**
-     * Representación en cadena del objeto Circulo.
-     * Devuelve una cadena con el radio, el perímetro y el área del círculo.
-     * 
-     * @return La cadena con la descripción del círculo.
-     */
+
     @Override
     public String toString() {
-        return "El circulo con radio " + radio + " perimetro: " + calcularPerimetro() + " area: " + calcularArea(); 
+        return "Circulo"; 
     }
+
 }

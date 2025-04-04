@@ -42,14 +42,9 @@ public class Triangulo extends Figura {
     public double  calcularPerimetro() {
         return (ld1 + ld2 + ld3);
     }
-    /**
-     * Representación en cadena del objeto Triangulo.
-     * Devuelve una cadena con el perímetro y el área del triángulo.
-     * 
-     * @return La cadena con la descripción del triángulo.
-     */
     @Override
     public String toString() {
-        return "El trinagulo   perimetro " +  calcularPerimetro() + " area: " + calcularArea(); 
+        return "Triangulo"; 
     }
+
 }

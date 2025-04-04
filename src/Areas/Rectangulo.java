@@ -35,14 +35,9 @@ class Rectangulo extends Figura {
     public double  calcularPerimetro() {
         return (2 * (base + altura));
     }
-/**
-     * Representación en cadena del objeto Rectangulo.
-     * Devuelve una cadena con la base, la altura, el perímetro y el área del rectángulo.
-     * 
-     * @return La cadena con la descripción del rectángulo.
-     */
     @Override
     public String toString() {
-        return "Rectángulo - Base: " + base + ", Altura: " + altura + ", " + calcularPerimetro() + " area: " + calcularArea();
+        return "Rectangulogit "; 
     }
+
 }
