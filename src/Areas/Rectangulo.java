@@ -37,7 +37,7 @@ class Rectangulo extends Figura {
     }
     @Override
     public String toString() {
-        return "Rectangulogit "; 
+        return "Rectangulo "; 
     }
 
 }
